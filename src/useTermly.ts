@@ -2,7 +2,7 @@ import {
   useCallback, useEffect, useMemo, useState,
 } from 'react';
 import equal from 'fast-deep-equal';
-import { TermlyConsentState, TermlyRef } from './TermlyRef';
+import { TermlyConsentState, TermlyRef } from './TermlyRef.js';
 
 export function useTermly() {
   const [consentState, setConsentState] = useState<TermlyConsentState>(TermlyRef.consentState);

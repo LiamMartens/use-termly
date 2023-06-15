@@ -1,5 +1,5 @@
 /// <reference path="../termly.d.ts" />
 
-export { TermlyRef } from './TermlyRef';
-export { useTermly } from './useTermly';
-export type { TermlyConsentState } from './TermlyRef';
+export { TermlyRef } from './TermlyRef.js';
+export { useTermly } from './useTermly.js';
+export type { TermlyConsentState } from './TermlyRef.js';
